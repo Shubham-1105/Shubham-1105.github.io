@@ -1,0 +1,81 @@
+oli{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-color:white;
+    padding: 2px 16px;
+    border-width: 10px;
+
+
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+
+  }
+  @media only screen and (max-width:750px){
+     body{
+        background-image: url('https://www.befunky.com/images/wp/wp-2016-03-blur-background-featured-1.jpg?auto=webp&format=jpg&width=880');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color:gold;
+     }      
+  }
+  body {
+background-image: url('https://www.befunky.com/images/wp/wp-2016-03-blur-background-featured-1.jpg?auto=webp&format=jpg&width=880');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+color:gold;
+
+}
+.avatar{
+    height: min-content;
+    width: fit-content; 
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+p{
+    margin-left:5%;
+    margin-right: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+@media(min-width:500px){
+    .responsive{
+        display: inline-block;
+        width: 400px;
+        background-color: cadetblue;
+        border-radius: 20px;
+        margin: 2% 10%;
+        text-shadow: 5px 5px gray;
+ 
+    }
+ }
+@media(min-width:1000px){
+   .responsive{
+       display: inline-block;
+       width: 400px;
+       background-color: cadetblue;
+       border-radius: 20px;
+       margin: 2% 30%;
+       text-shadow: 5px 5px gray;
+
+   }
+}
+
+.oli{
+
+}
+
+footer a:hover{
+ text-emphasis: 30px;
+ text-transform: capitalize; 
+ text-decoration-color: gold;  
+ text-shadow: 40px;
+ background:white;
+}
